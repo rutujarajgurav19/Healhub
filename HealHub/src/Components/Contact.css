@@ -1,0 +1,70 @@
+/* Background gradient for the header */
+.contact-header {
+  background: linear-gradient(to right, #38a169, #3182ce);
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+/* Contact section container */
+.contact-container {
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 2rem;
+  margin-top: -4rem;
+}
+
+/* Contact info boxes */
+.contact-info {
+  text-align: center;
+  padding: 1rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.contact-info:last-child {
+  border-bottom: none;
+}
+
+.contact-info h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.contact-info p {
+  color: #4a5568;
+}
+
+/* Form styles */
+.contact-form {
+  background: #f7fafc;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form input, textarea, and button styles */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #cbd5e0;
+  border-radius: 6px;
+  margin-top: 0.5rem;
+}
+
+.contact-form button {
+  background-color: #2b6cb0;
+  color: white;
+  padding: 0.75rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #2c5282;
+}

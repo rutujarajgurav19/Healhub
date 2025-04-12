@@ -1,0 +1,53 @@
+/* Footer styles */
+.footer {
+    background-color: #282c34;
+    color: #fff;
+
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+
+
+    margin: 0 auto;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.contact-info strong {
+    font-weight: bold;
+}
+
+.contact-link {
+    color: #00c4cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    font-size: 14px;
+   
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .footer {
+        padding: 15px;
+    }
+
+    .footer-content {
+        padding: 0 10px;
+    }
+
+    .contact-info p {
+        font-size: 14px;
+    }
+}

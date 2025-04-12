@@ -1,0 +1,17 @@
+/* Existing styles */
+
+/* Profile Picture */
+.profile-pic {
+    width: 40px; /* Set width */
+    height: 40px; /* Set height */
+    border-radius: 50%; /* Make it circular */
+    margin-left: 10px; /* Space between text and image */
+}
+
+/* Navbar Link Styles */
+.nav-link.custom-link {
+    color: #333; /* Text color */
+    font-weight: bold; /* Bold text */
+}
+
+/* Additional styles can be added here */

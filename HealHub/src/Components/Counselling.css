@@ -1,0 +1,119 @@
+/* Overall container styling */
+.counselling-container {
+    font-family: 'Poppins', sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 60px; /* Added margin to create space above the footer */
+
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Header Image */
+.counselling-header {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.counselling-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.counselling-image:hover {
+    transform: scale(1.05);
+}
+
+/* Welcome Text */
+.counselling-welcome {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 20px;
+    background: #e3f2fd;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Sections */
+.counselling-section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.counselling-section:hover {
+    transform: scale(1.02);
+}
+
+/* Section Headings */
+.counselling-section h2 {
+    font-size: 22px;
+    color: #0077b6;
+    margin-bottom: 12px;
+    border-bottom: 3px solid #0077b6;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Service List */
+.counselling-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.counselling-section ul li {
+    font-size: 18px;
+    padding: 8px;
+    background: #e3f2fd;
+    margin: 6px 0;
+    border-radius: 6px;
+    color: #333;
+    transition: background 0.3s;
+}
+
+.counselling-section ul li:hover {
+    background: #bbdefb;
+}
+
+/* Contact Info */
+.counselling-section p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.5;
+}
+
+.counselling-section strong {
+    color: #0077b6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .counselling-container {
+        padding: 15px;
+    }
+
+    .counselling-section {
+        padding: 15px;
+    }
+
+    .counselling-section h2 {
+        font-size: 20px;
+    }
+
+    .counselling-section ul li {
+        font-size: 16px;
+    }
+}
